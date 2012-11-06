@@ -1,0 +1,46 @@
+Vagrant::Config.run do |config|
+    config.vm.box = "base-squeeze64"
+    config.vm.box_url = "../build/base-squeeze64.box"
+
+    config.vm.host_name = "base-squeeze64-lamp-53"
+    config.package.name = "../build/base-squeeze64-lamp-53.box"
+
+    config.vm.provision :chef_solo do |chef|
+        chef.cookbooks_path = ["./config-cookbooks", "../cookbooks"]
+
+        chef.add_recipe("apt")
+        chef.add_recipe("git")
+        chef.add_recipe("curl")
+        chef.add_recipe("openssl")
+        chef.add_recipe("memcached")
+
+        chef.add_recipe("apache2")
+        chef.add_recipe("apache2config")
+        chef.add_recipe("mysql")
+        chef.add_recipe("mysql::server")
+        chef.add_recipe("php")
+        chef.add_recipe("php::package")
+        chef.add_recipe("php5config")
+
+        chef.json = {
+            "mysql" => {
+                "server_root_password" => "",
+                "server_repl_password" => "",
+                "server_debian_password" => "",
+                "use_upstart" => false,
+                "bind_address" => "127.0.0.1",
+            },
+            "apache" => {
+                "default_modules" => ["php5", "rewrite", "alias", "expires", "deflate"]
+            },
+            "memcached" => {
+                "memory" => "32",
+                "user" => "vagrant",
+                "port" => "11211",
+                "listen" => "localhost",
+            }
+        }
+    end
+
+    config.vm.provision :shell, :path => "provision.sh"
+end

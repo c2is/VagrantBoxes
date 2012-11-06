@@ -1,0 +1,14 @@
+<VirtualHost *:80>
+  ServerName <%= @params[:server_name] %>
+  DocumentRoot <%= @params[:document_root] %>
+  DirectoryIndex <%= @params[:directory_index] %>
+  
+  <Directory <%= @params[:document_root] %>>
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride All
+    Order allow,deny
+    Allow from all
+  </Directory>
+
+  LogLevel info
+</VirtualHost>

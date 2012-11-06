@@ -1,0 +1,7 @@
+Vagrant::Config.run do |config|
+    config.vm.box = "vendor-squeeze-64"
+    config.vm.box_url = "http://dl.dropbox.com/u/937870/VMs/squeeze64.box"
+
+    config.vm.host_name = "base-squeeze64"
+    config.package.name = "../build/base-squeeze64.box"
+end

@@ -1,0 +1,24 @@
+[submodule "cookbooks/apache2"]
+	path = cookbooks/apache2
+	url = git://github.com/opscode-cookbooks/apache2.git
+[submodule "cookbooks/git"]
+	path = cookbooks/git
+	url = git://github.com/opscode-cookbooks/git.git
+[submodule "cookbooks/php"]
+	path = cookbooks/php
+	url = git://github.com/opscode-cookbooks/php.git
+[submodule "cookbooks/apt"]
+	path = cookbooks/apt
+	url = git://github.com/opscode-cookbooks/apt.git
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = git://github.com/opscode-cookbooks/mysql.git
+[submodule "cookbooks/curl"]
+	path = cookbooks/curl
+	url = git://github.com/retr0h/cookbook-curl.git
+[submodule "cookbooks/memcached"]
+	path = cookbooks/memcached
+	url = git://github.com/opscode-cookbooks/memcached.git
+[submodule "cookbooks/openssl"]
+	path = cookbooks/openssl
+	url = git://github.com/opscode-cookbooks/openssl.git
