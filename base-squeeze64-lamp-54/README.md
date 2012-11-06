@@ -86,6 +86,15 @@ Syntax OK
 ```
 
 ```shell
+$ telnet localhost 11211
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+version
+VERSION 1.4.5
+```
+
+```shell
 $ git --version
 git version 1.7.2.5
 ```
