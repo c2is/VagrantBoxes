@@ -23,6 +23,8 @@ $ cat /etc/apache2/sites-enabled/apache2config.conf
   LogLevel info
 </VirtualHost>
 ```
+Works fine with this [Vagrant file](https://github.com/c2is/VagrantBoxes/blob/master/your-lamp-server/Vagrantfile).  
+Especially with Symfony projects (thanks to the `web` directory).
 
 ### Versions
 
