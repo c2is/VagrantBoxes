@@ -1,5 +1,9 @@
 ## Debian Squeeze 64 (with Chef and Puppet)
 
+### Download
+
+[https://dl.dropbox.com/s/4vjbrlvll4vjfg4/base-squeeze64.box?dl=1](https://dl.dropbox.com/s/4vjbrlvll4vjfg4/base-squeeze64.box?dl=1)
+
 ### Config
 
 ```shell

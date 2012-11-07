@@ -1,5 +1,9 @@
 ## PHP 5.4 LAMP server based on Debian Squeeze 64
 
+### Download
+
+[https://dl.dropbox.com/s/m3cnudvkwmayhwh/base-squeeze64-lamp-54.box?dl=1](https://dl.dropbox.com/s/m3cnudvkwmayhwh/base-squeeze64-lamp-54.box?dl=1)
+
 ### Config
 
 ```shell
