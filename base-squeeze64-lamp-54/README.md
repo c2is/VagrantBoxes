@@ -23,12 +23,12 @@ $ cat /etc/apache2/sites-enabled/apache2config.conf
   LogLevel info
 </VirtualHost>
 ```
-Works fine with this [Vagrant file](https://github.com/c2is/VagrantBoxes/blob/master/your-lamp-server/Vagrantfile).  
+Works fine with this [Vagrantfile](https://github.com/c2is/VagrantBoxes/blob/master/your-lamp-server/Vagrantfile).  
 Especially with Symfony projects (thanks to the `web` directory).
 
 ### Versions
 
-#### PHP
+##### PHP
 
 ```shell
 $ php -v
@@ -47,14 +47,14 @@ php5-memcache
 php5-geoip
 ```
 
-#### MySql
+##### MySql
 
 ```shell
 $ mysql --version
 mysql  Ver 14.14 Distrib 5.5.28, for debian-linux-gnu (x86_64) using readline 6.1
 ```
 
-#### Apache
+##### Apache
 
 ```shell
 $ /usr/sbin/apache2 -v
@@ -97,7 +97,7 @@ Loaded Modules:
 Syntax OK
 ```
 
-#### Memcached
+##### Memcached
 
 ```shell
 $ telnet localhost 11211
@@ -108,14 +108,14 @@ version
 VERSION 1.4.5
 ```
 
-#### Git
+##### Git
 
 ```shell
 $ git --version
 git version 1.7.2.5
 ```
 
-#### Curl
+##### Curl
 
 ```shell
 $ curl --version
