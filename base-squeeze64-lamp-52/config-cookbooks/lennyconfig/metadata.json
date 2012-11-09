@@ -1,0 +1,33 @@
+{
+    "maintainer_email": "denis.roussel@gmail.com",
+    "recipes": {
+      "lennyconfig": "Lenny specific packages",
+    },
+    "groupings": {
+    },
+    "recommendations": {
+    },
+    "description": "Lenny specific packages",
+    "attributes": {
+    },
+    "suggestions": {
+    },
+    "dependencies": {
+    },
+    "platforms": {
+      "debian": [
+
+      ]
+    },
+    "conflicting": {
+    },
+    "long_description": "",
+    "version": "0.0.1",
+    "providing": {
+    },
+    "name": "lennyconfig",
+    "license": "Apache 2.0",
+    "maintainer": "Denis Roussel",
+    "replacing": {
+    }
+  }

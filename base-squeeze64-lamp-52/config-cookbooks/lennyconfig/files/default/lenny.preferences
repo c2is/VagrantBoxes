@@ -1,0 +1,9 @@
+Explanation: by default install a package from Lenny if it is not yet installed and is not available from Squeeze
+Package: *
+Pin: release n=lenny*
+Pin-Priority: 100
+
+Explanation: install these packages always from Lenny
+Package: libapache2-mod-php5 php5-cgi php5 php5-dev php5-common php5-cli php-pear php5-curl php5-memcache php5-mysql php5-geoip
+Pin: release n=lenny*
+Pin-Priority: 999

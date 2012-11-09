@@ -1,0 +1,2 @@
+deb http://archive.debian.org/debian/ lenny main contrib non-free
+deb-src http://archive.debian.org/debian/ lenny main contrib non-free
