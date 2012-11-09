@@ -28,6 +28,8 @@ Especially with Symfony projects (thanks to the `web` directory).
 
 ### Versions
 
+#### PHP
+
 ```shell
 $ php -v
 PHP 5.4.8-1~dotdeb.0 (cli) (built: Oct 18 2012 21:19:48) 
@@ -45,10 +47,14 @@ php5-memcache
 php5-geoip
 ```
 
+#### MySql
+
 ```shell
 $ mysql --version
 mysql  Ver 14.14 Distrib 5.5.28, for debian-linux-gnu (x86_64) using readline 6.1
 ```
+
+#### Apache
 
 ```shell
 $ /usr/sbin/apache2 -v
@@ -91,6 +97,8 @@ Loaded Modules:
 Syntax OK
 ```
 
+#### Memcached
+
 ```shell
 $ telnet localhost 11211
 Trying 127.0.0.1...
@@ -100,10 +108,14 @@ version
 VERSION 1.4.5
 ```
 
+#### Git
+
 ```shell
 $ git --version
 git version 1.7.2.5
 ```
+
+#### Curl
 
 ```shell
 $ curl --version

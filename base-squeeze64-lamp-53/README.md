@@ -27,6 +27,8 @@ Works fine with this [Vagrant file](https://github.com/c2is/VagrantBoxes/blob/ma
 
 ### Versions
 
+#### PHP
+
 ```shell
 $ php -v
 PHP 5.3.3-7+squeeze14 with Suhosin-Patch (cli) (built: Aug  6 2012 14:18:06) 
@@ -45,10 +47,14 @@ php5-intl
 php5-geoip
 ```
 
+#### MySql
+
 ```shell
 $ mysql --version
 mysql  Ver 14.14 Distrib 5.1.63, for debian-linux-gnu (x86_64) using readline 6.1
 ```
+
+#### Apache
 
 ```shell
 $ /usr/sbin/apache2 -v
@@ -91,6 +97,8 @@ Loaded Modules:
 Syntax OK
 ```
 
+#### Memcached
+
 ```shell
 $ telnet localhost 11211
 Trying 127.0.0.1...
@@ -100,10 +108,14 @@ version
 VERSION 1.4.5
 ```
 
+#### Git
+
 ```shell
 $ git --version
 git version 1.7.2.5
 ```
+
+#### Curl
 
 ```shell
 $ curl --version
