@@ -2,7 +2,7 @@
 
 ### Download
 
-Coming soon...
+[https://dl.dropbox.com/s/65nlg84xpn1urfu/base-squeeze64-lamp-52.box?dl=1](https://dl.dropbox.com/s/65nlg84xpn1urfu/base-squeeze64-lamp-52.box?dl=1)
 
 ### Config
 
