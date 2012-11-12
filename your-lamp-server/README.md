@@ -2,6 +2,11 @@
 
 * Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * Install [Vagrant](http://downloads.vagrantup.com/)
+* add Vagrant path : 
+```shell
+$ echo "export PATH=\$PATH:`whereis vagrant | cut -d" " -f2`" >> ~/.bashrc
+```
+
 * Create and customize your project's [Vangrantfile](https://github.com/c2is/VagrantBoxes/blob/master/your-lamp-server/Vagrantfile)
 * Launch vagrant in your project root directory : `vagrant up`
 
