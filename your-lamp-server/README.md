@@ -26,3 +26,9 @@ $ sudo apt-get install nfs-kernel-server
 ##### Virtual LAMP server
 
 * Source code is available in : `/vagrant` (use SSH access)
+
+### Problems resolution
+
+##### Terminal freeze on the VM booting
+
+Please, check if your `Virtualization Technology` setting is enabled on the bios setup.
