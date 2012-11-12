@@ -16,7 +16,7 @@ And you need to install `nfs-kernel-server` :
 $ sudo apt-get install nfs-kernel-server
 ```
 
-### Usage
+## Usage
 
 ##### Local
 
@@ -27,8 +27,8 @@ $ sudo apt-get install nfs-kernel-server
 
 * Source code is available in : `/vagrant` (use SSH access)
 
-### Problems resolution
+## Issues
 
-##### Terminal freeze on the VM booting
+##### Freeze while VM is booting
 
-Please, check if your `Virtualization Technology` setting is enabled on the bios setup.
+Check your `Virtualization Technology` in your bios setup.
